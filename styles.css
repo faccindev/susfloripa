@@ -1,0 +1,192 @@
+body{
+    width: 320px;
+    background: rgba(29, 30, 132, .03);
+    font-family: calibri;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecalho{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo_pmf{
+    width:150px;
+}
+
+#emteste{
+    text-align: center;
+    color: red;
+}
+
+
+h2{
+    text-align:center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3{}
+
+#subtitulo{
+    text-align: center;
+}
+
+
+.textoGeral{
+    text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;  
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+li{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: darkblue;
+    cursor: pointer;
+   
+}
+
+#contatosCS{
+    display: none;
+}
+
+
+/* #mailOutros{
+    display: none;
+}
+
+#linkOutros{
+    display: none;
+}  */
+
+.endereco{
+    text-align: center;
+}
+
+
+#falarComEquipe,
+#fazerCadastro,
+#outrosAssuntos,
+#redesSociais{
+    background-color: cornflowerblue;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#falarComEquipe:hover,
+#fazerCadastro:hover,
+#outrosAssuntos:hover,
+#redesSociais:hover{
+    background-color: darkblue;
+}
+
+#conteudoRedesSociais,
+#conteudoFazerCadastro{
+    display: none; 
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 140%;
+   }
+
+
+
+#conteudoOutrosAssuntos,
+#conteudoFalarComEquipe{
+    display: none; 
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 200%;
+   }
+
+
+/* .zapIcon, .zapIcon2, .zapIcon3, .phoneIcon, .mailIcon, .linkIcon {
+    width: 30px;
+} 
+
+.zapIcon{
+    margin-bottom: 10px;
+} */
+
+
+.centralizar{
+    text-align: center;
+}
+
+.finalsecao{
+    margin-bottom: 40px;
+}
+
+#espacoembranco{
+    margin-bottom: 200px;
+}
+
+
+#rodape2{
+    color: lightgray;
+    
+}
+
+#rodape1{
+    color: darkgray;
+}
+
+.iconSmall {
+    width: 17px;
+    margin-bottom: -3px;
+    padding-right: 5px;
+}
+
+.zapIcon, .linkIconCadastro {
+    width: 24px;
+    margin-bottom: -7px;
+    padding-right: 5px;
+}
+
+
+.nEquipe0, .nEquipe1, .nEquipe2, .nEquipe3, .nEquipe4, .nEquipe5, .nEquipe6, .nEquipe7, .servtitle{
+    font-weight: 600;
+    color: #0297FF;
+    font-size: 20px;
+}
+
+
+#zapEquipe0, #zapEquipe1, #zapEquipe2, #zapEquipe3, #zapEquipe4, #zapEquipe5, #zapEquipe6, #zapEquipe7, #zapCadastro, #linkCadastro, #zapEquipeOdonto1, #zapEquipeOdonto2, .servnumber{
+    font-weight: 600; 
+    color: #555555;
+    font-size: 18px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.servMail{
+    font-weight: 400;
+    font-size: 16px;
+}

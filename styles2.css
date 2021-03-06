@@ -1,0 +1,75 @@
+body{
+    width: 650px;
+    font-family: calibri;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+td {
+    width: 150px;
+}
+
+.td2 {
+    width: 300px;
+}
+
+
+table{
+    padding-left: 10px;
+}
+
+.titulo{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#cabecalho{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo_pmf{
+    width:200px;
+}
+
+h2{
+    text-align:center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{}
+
+#subtitulo{
+    text-align: center;
+}
+
+.icon{
+    width: 16px;
+    padding-right: 8px;
+    margin-bottom: -4px;
+    }
+
+.iconSmall{
+    width: 13px;
+    padding-right: 8px;
+    margin-bottom: -2px;
+    }
+
+
+.zapIcon{
+    width: 16px;
+    padding-right: 8px;
+    margin-bottom: -4px;
+    }
+
+
+
+

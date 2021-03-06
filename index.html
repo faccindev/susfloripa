@@ -1,0 +1,159 @@
+<!doctype HTML>
+
+<html lang=en>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Deniz Faccin">
+        <meta name="description" content="Contatos dos Centros de Saúde de Florianópolis/SC">
+        <meta name="keywords" content="centro de saúde, centros de saúde, cs, postos de saúde, posto de saúde, postinho, saúde, telefone, telefones, whatsapp, contato, contatos, florianópolis">
+        <meta name="robots" content="index, follow">
+        <meta name="google-site-verification" content="vA98UJcRMn1buwdJ3TGF017LluImkd5UnjRTY-bgbRo" />
+        <link href="styles.css" rel="stylesheet">
+        <title>Centros de Saúde - Florianópolis</title>
+    </head>
+    
+    <body>
+        <div id="primeiraPagina">
+            <div id="cabecalho"><a href="http://www.pmf.sc.gov.br/"><img id="logo_pmf" src="logo_pmf.png"></a></div>
+          <div id="titulo"><h2>Contatos dos Centros de Saúde</h2></div>
+<!--        <div id="subtitulo"><p>Selecione o Centro de Saúde</p></div> -->
+
+        
+        <list id="listaCS">
+            <ul>
+                <li onclick="abreCS(abraao)">Abraão</li>
+                <li onclick="abreCS(agronomica)">Agronômica</li>
+                <li onclick="abreCS(altoRibeirao)">Alto Ribeirão</li>
+                <li onclick="abreCS(armacao)">Armação</li> 
+                <li onclick="abreCS(balneario)">Balneário</li>
+                <li onclick="abreCS(barra)">Barra da Lagoa</li>
+                <li onclick="abreCS(cachoeira)">Cachoeira do Bom Jesus</li> 
+                <li onclick="abreCS(caieira)">Caieira da Barra do Sul</li> 
+                <li onclick="abreCS(campeche)">Campeche</li> 
+                <li onclick="abreCS(canasvieiras)">Canasvieiras</li> 
+                <li onclick="abreCS(canto)">Canto da Lagoa</li>
+                <li onclick="abreCS(capoeiras)">Capoeiras</li>
+                <li onclick="abreCS(carianos)">Carianos</li>
+                <li onclick="abreCS(centro)">Centro</li>
+                <li onclick="abreCS(coloninha)">Coloninha</li> 
+                <li onclick="abreCS(coqueiros)">Coqueiros</li>
+                <li onclick="abreCS(corrego)">Córrego Grande</li>
+                <li onclick="abreCS(costa)">Costa da Lagoa</li> 
+                <li onclick="abreCS(costeira)">Costeira do Pirajubaé</li> 
+                <li onclick="abreCS(estreito)">Estreito</li> 
+                <li onclick="abreCS(fazenda)">Fazenda do Rio Tavares</li> 
+                <li onclick="abreCS(ingleses)">Ingleses</li> 
+                <li onclick="abreCS(itacorubi)">Itacorubi</li>
+                <li onclick="abreCS(jardimAtlantico)">Jardim Atlântico</li> 
+                <li onclick="abreCS(joaoPaulo)">João Paulo</li>
+                <li onclick="abreCS(jurere)">Jurerê</li> 
+                <li onclick="abreCS(lagoa)">Lagoa da Conceição</li> 
+                <li onclick="abreCS(monteCristo)">Monte Cristo</li> 
+                <li onclick="abreCS(monteSerrat)">Monte Serrat</li>
+                <li onclick="abreCS(morroDasPedras)">Morro das Pedras</li> 
+                <li onclick="abreCS(novoContinente)">Novo Continente</li> 
+                <li onclick="abreCS(pantanal)">Pantanal</li>
+                <li onclick="abreCS(pantano)">Pântano do Sul</li> 
+                <li onclick="abreCS(ponta)">Ponta das Canas</li> 
+                <li onclick="abreCS(prainha)">Prainha</li>
+                <li onclick="abreCS(ratones)">Ratones</li>
+                <li onclick="abreCS(ribeirao)">Ribeirão da Ilha</li> 
+                <li onclick="abreCS(rioTavares)">Rio Tavares</li>
+                <li onclick="abreCS(rioVermelho)">Rio Vermelho</li> 
+                <li onclick="abreCS(sacoDosLimoes)">Saco dos Limões</li>
+                <li onclick="abreCS(sacoGrande)">Saco Grande</li>
+                <li onclick="abreCS(santinho)">Santinho</li> 
+                <li onclick="abreCS(santoAntonio)">Santo Antônio de Lisboa</li> 
+                <li onclick="abreCS(sape)">Sapé</li> 
+                <li onclick="abreCS(tapera)">Tapera</li> 
+                <li onclick="abreCS(trindade)">Trindade</li>
+                <li onclick="abreCS(vargemGrande)">Vargem Grande</li> 
+                <li onclick="abreCS(vargemPequena)">Vargem Pequena</li> 
+                <li onclick="abreCS(vilaAparecida)">Vila Aparecida</li> 
+            </ul>           
+        </list>
+        <div id="espacoembranco"></div>
+            <div class="centralizar" id="rodape1">Copyright © 2020 | Distrito Sanitário Centro</div>
+        </div>
+        
+        <div id="contatosCS">
+            <div id="cabecalho"><img id="logo_pmf" src="logo_pmf.png"></div>
+            <button id="voltar" onclick="voltar()">Voltar</button>
+            <h2>Centro de Saúde&nbsp;<span id="nomeCS"></span></h2>
+            <p class="endereco"><img src="maps.png" class="iconSmall"><span id="endereco"></span></p>
+             
+            
+            <div class="opcaoCS" id="fazerCadastro" onclick="fazerCadastro()"><ul><li>Cadastro</li></ul></div>
+                <div class="conteudo" id="conteudoFazerCadastro">
+                    <p class="textoGeral">Agora você pode se cadastrar pelo celular ou computador, sem sair de casa:</p>
+                        <div class="centralizar">
+                            <span id="linkCadastro"></span>
+                            <span id="zapCadastro"></span>
+                        </div>
+                    <p class="textoGeral">Tenha em mãos um documento válido com CPF e um comprovante de residência.</p>
+                    <div class="finalsecao"></div>
+                </div>
+             
+            
+            <div class="opcaoCS" id="falarComEquipe" onclick="falarComEquipe()"><ul><li>Contatos das Equipes</li></ul></div>
+                <div class="conteudo" id="conteudoFalarComEquipe">
+                    <p class="textoGeral">Fale com sua Equipe pelo Whatsapp ou Email:</p>
+                        <div class="centralizar">
+                            <p><span class="nEquipe0"></span><span id="zapEquipe0"></span><span id="mailEquipe0"></span></p>
+                            <p><span class="nEquipe1"></span><span id="zapEquipe1"></span><span id="mailEquipe1"></span></p>
+                            <p><span class="nEquipe2"></span><span id="zapEquipe2"></span><span id="mailEquipe2"></span></p>
+                            <p><span class="nEquipe3"></span><span id="zapEquipe3"></span><span id="mailEquipe3"></span></p>
+                            <p><span class="nEquipe4"></span><span id="zapEquipe4"></span><span id="mailEquipe4"></span></p>
+                            <p><span class="nEquipe5"></span><span id="zapEquipe5"></span><span id="mailEquipe5"></span></p>
+                            <p><span class="nEquipe6"></span><span id="zapEquipe6"></span><span id="mailEquipe6"></span></p>
+                            <p><span class="nEquipe7"></span><span id="zapEquipe7"></span><span id="mailEquipe7"></span></p>
+                            <p><span id="zapEquipeOdonto1"></span></p>
+                            <p><span id="mailEquipeOdonto1"></span></p>
+                            <p><span id="zapEquipeOdonto2"></span></p>
+                            <p><span id="mailEquipeOdonto2"></span></p>                                                
+                        </div>
+                    <div class="finalsecao"></div>
+                </div>
+            
+            
+            <div class="opcaoCS" id="outrosAssuntos" onclick="outrosAssuntos()"><ul><li>Serviços</li></ul></div>
+                <div class="conteudo" id="conteudoOutrosAssuntos">
+                    <div class="centralizar">
+                        <p><span class="servtitle" id="servico1"></span><span class="servnumber" id="contatoServico1"></span></p>
+                        <p><span class="servtitle" id="servico2"></span><span class="servnumber" id="contatoServico2"></span></p>
+                        <p><span class="servtitle" id="servico3"></span><span class="servnumber" id="contatoServico3"></span></p>
+                        <p><span class="servtitle" id="servico4"></span><span class="servnumber" id="contatoServico4"></span></p>
+                        <p><span class="servtitle" id="servico5"></span><span class="servnumber" id="contatoServico5"></span></p>
+                        <p><span class="servtitle" id="servico6"></span><span class="servnumber" id="contatoServico6"></span></p>   
+                        <p><span class="servtitle" id="servico7"></span><span class="servnumber" id="contatoServico7"></span></p>
+                        <p><span class="servtitle" id="servico8"></span><span class="servnumber" id="contatoServico8"></span></p>
+                        <p><span class="servtitle" id="coord"></span><span id="mailCoord"></span></p>
+                    </div>
+                    <div class="finalsecao"></div>
+                </div>
+            
+                        
+            <div class="opcaoCS" id="redesSociais" onclick="redesSociais()"><ul><li>Redes Sociais e Links</li></ul></div>
+                <div class="conteudo" id="conteudoRedesSociais">
+                    <div class="centralizar">
+                        <p><span class="servtitle" id="redeSocial1"></span><span id="contatoRedeSocial1"></span></p>
+                        <p><span class="servtitle" id="redeSocial2"></span><span id="contatoRedeSocial2"></span></p>
+                        <p><span class="servtitle" id="redeSocial3"></span><span id="contatoRedeSocial3"></span></p>
+                        <p><span class="servtitle" id="redeSocial4"></span><span id="contatoRedeSocial4"></span></p>
+                        <p><span class="servtitle" id="redeSocial5"></span><span id="contatoRedeSocial5"></span></p>
+                    </div>
+                                
+                </div>
+                        
+                        
+        <div id="espacoembranco"></div>            
+        </div>
+        
+        <script src="appv3.js"></script>
+  
+    </body>
+        
+</html>
+
